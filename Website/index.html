@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronic Diseases World Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Global Prevalence of Chronic Diseases and Risk Factors</h1>
+
+    <!-- Disease Selection Buttons -->
+    <div id="buttons">
+        <button onclick="updateMap('asthma')">Asthma</button>
+        <button onclick="updateMap('diabetes')">Diabetes</button>
+        <button onclick="updateMap('heart_failure')">Heart Failure and Hypertension</button>
+    </div>
+
+    <!-- Note about units -->
+    <p>Values represent hospital admissions per 100,000 inhabitants</p>
+
+    <!-- SVG for the map -->
+    <svg width="960" height="600"></svg>
+
+    <!-- Legend -->
+    <div id="legend">
+        <svg width="300" height="50"></svg>
+    </div>
+
+    <!-- Include D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Link to external JS file -->
+    <script src="world_map.js"></script>
+</body>
+
+</html>

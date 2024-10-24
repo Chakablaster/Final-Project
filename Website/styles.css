@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #6868bd;
+}
+
+h1 {
+    color: #333;
+    margin: 20px 0;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+#legend {
+    margin-top: 10px;
+}
+
+#buttons {
+    margin: 20px;
+}
+
+button {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 12px;
+}
