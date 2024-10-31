@@ -1,37 +1,34 @@
-﻿"Deaths from cancer"
-"Total, Deaths per 100 000 inhabitants, 2020"
-"Category","Total"
-"Hungary",280.2
-"Slovak Rep.",256.9
-"Latvia",256.2
-"Slovenia",247.4
-"Lithuania",241.3
-"Poland",240.4
-"Denmark",231.1
-"Czechia",229.3
-"Estonia",228.3
-"United Kingdom",221.8
-"Ireland",220.8
-"Netherlands",217.2
-"Greece",207.8
-"Germany",206.2
-"Canada",197.3
-"Austria",196.6
-"Italy",195.7
-"Iceland",192.2
-"France",191.9
-"Belgium",190.8
-"Australia",189
-"Spain",185.8
-"Chile",184.9
-"Costa Rica",183.9
-"United States",183.2
-"Sweden",182.3
-"Finland",181
-"Israel",176.8
-"Japan",174.8
-"Luxembourg",168.4
-"Switzerland",167.6
-"Korea",160.2
-"Colombia",144
-"Mexico",126.3
+﻿REF_AREA,Reference area,Measure,Unit of measure,TIME_PERIOD,OBS_VALUE
+HUN,Hungary,Deaths from cancer,Per 100 000 inhabitants,2020,280.2
+SVK,Slovak Rep.,Deaths from cancer,Per 100 000 inhabitants,2020,256.9
+LVA,Latvia,Deaths from cancer,Per 100 000 inhabitants,2020,256.2
+SVN,Slovenia,Deaths from cancer,Per 100 000 inhabitants,2020,247.4
+LTU,Lithuania,Deaths from cancer,Per 100 000 inhabitants,2020,241.3
+POL,Poland,Deaths from cancer,Per 100 000 inhabitants,2020,240.4
+DNK,Denmark,Deaths from cancer,Per 100 000 inhabitants,2020,231.1
+CZE,Czechia,Deaths from cancer,Per 100 000 inhabitants,2020,229.3
+EST,Estonia,Deaths from cancer,Per 100 000 inhabitants,2020,228.3
+GBR,United Kingdom,Deaths from cancer,Per 100 000 inhabitants,2020,221.8
+IRL,Ireland,Deaths from cancer,Per 100 000 inhabitants,2020,220.8
+NLD,Netherlands,Deaths from cancer,Per 100 000 inhabitants,2020,217.2
+GRC,Greece,Deaths from cancer,Per 100 000 inhabitants,2020,207.8
+DEU,Germany,Deaths from cancer,Per 100 000 inhabitants,2020,206.2
+CAN,Canada,Deaths from cancer,Per 100 000 inhabitants,2020,197.3
+AUT,Austria,Deaths from cancer,Per 100 000 inhabitants,2020,196.6
+ITA,Italy,Deaths from cancer,Per 100 000 inhabitants,2020,195.7
+ICL,Iceland,Deaths from cancer,Per 100 000 inhabitants,2020,192.2
+FRA,France,Deaths from cancer,Per 100 000 inhabitants,2020,191.9
+BEL,Belgium,Deaths from cancer,Per 100 000 inhabitants,2020,190.8
+AUS,Australia,Deaths from cancer,Per 100 000 inhabitants,2020,189
+ESP,Spain,Deaths from cancer,Per 100 000 inhabitants,2020,185.8
+CHL,Chile,Deaths from cancer,Per 100 000 inhabitants,2020,184.9
+CRI,Costa Rica,Deaths from cancer,Per 100 000 inhabitants,2020,183.9
+USA,United States,Deaths from cancer,Per 100 000 inhabitants,2020,183.2
+SWE,Sweden,Deaths from cancer,Per 100 000 inhabitants,2020,182.3
+FIN,Finland,Deaths from cancer,Per 100 000 inhabitants,2020,181
+JPN,Japan,Deaths from cancer,Per 100 000 inhabitants,2020,174.8
+LUX,Luxembourg,Deaths from cancer,Per 100 000 inhabitants,2020,168.4
+CHE,Switzerland,Deaths from cancer,Per 100 000 inhabitants,2020,167.6
+KOR,Korea,Deaths from cancer,Per 100 000 inhabitants,2020,160.2
+COL,Colombia,Deaths from cancer,Per 100 000 inhabitants,2020,144
+MEX,Mexico,Deaths from cancer,Per 100 000 inhabitants,2020,126.3

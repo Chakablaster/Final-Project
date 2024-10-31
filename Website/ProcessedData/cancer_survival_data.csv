@@ -1,0 +1,521 @@
+country,cancerType,year,survivalRate
+Australia,Colon cancer ,2004,63.7
+Australia,Colon cancer ,2009,68.1
+Australia,Colon cancer ,2014,70.7
+Australia,Lung cancer ,2004,14.8
+Australia,Lung cancer ,2009,17.1
+Australia,Lung cancer ,2014,19.4
+Australia,Rectal cancer ,2004,64.4
+Australia,Rectal cancer ,2009,68.6
+Australia,Rectal cancer ,2014,71
+Australia,Stomach cancer ,2004,27.7
+Australia,Stomach cancer ,2009,29.8
+Australia,Stomach cancer ,2014,31.8
+Austria,Lung cancer ,2004,15.4
+Austria,Lung cancer ,2009,18
+Austria,Lung cancer ,2014,19.7
+Austria,Rectal cancer ,2004,60.2
+Austria,Rectal cancer ,2009,63.5
+Austria,Rectal cancer ,2014,64.2
+Austria,Stomach cancer ,2004,30
+Austria,Stomach cancer ,2009,34.2
+Austria,Stomach cancer ,2014,35.4
+Austria,Colon cancer ,2004,60.7
+Austria,Colon cancer ,2009,63.5
+Austria,Colon cancer ,2014,63.7
+Belgium,Stomach cancer ,2004,29.3
+Belgium,Stomach cancer ,2009,35.8
+Belgium,Stomach cancer ,2014,37.5
+Belgium,Colon cancer ,2004,64.3
+Belgium,Colon cancer ,2009,65
+Belgium,Colon cancer ,2014,67.9
+Belgium,Rectal cancer ,2004,62.9
+Belgium,Rectal cancer ,2009,65.3
+Belgium,Rectal cancer ,2014,66.6
+Belgium,Lung cancer ,2004,15.4
+Belgium,Lung cancer ,2009,17
+Belgium,Lung cancer ,2014,18.2
+Brazil,Lung cancer ,2004,9.1
+Brazil,Lung cancer ,2009,8.5
+Brazil,Lung cancer ,2014,8.1
+Brazil,Rectal cancer ,2004,37.5
+Brazil,Rectal cancer ,2009,45.5
+Brazil,Rectal cancer ,2014,42.6
+Brazil,Colon cancer ,2004,44.5
+Brazil,Colon cancer ,2009,50.6
+Brazil,Colon cancer ,2014,48.3
+Brazil,Stomach cancer ,2004,19.1
+Brazil,Stomach cancer ,2009,24.3
+Brazil,Stomach cancer ,2014,20.5
+Bulgaria,Lung cancer ,2004,5.8
+Bulgaria,Lung cancer ,2009,7
+Bulgaria,Lung cancer ,2014,7.7
+Bulgaria,Colon cancer ,2004,43.9
+Bulgaria,Colon cancer ,2009,48.5
+Bulgaria,Colon cancer ,2014,52.4
+Bulgaria,Stomach cancer ,2004,11.2
+Bulgaria,Stomach cancer ,2009,13.9
+Bulgaria,Stomach cancer ,2014,16
+Bulgaria,Rectal cancer ,2004,37
+Bulgaria,Rectal cancer ,2009,42.1
+Bulgaria,Rectal cancer ,2014,45.9
+Canada,Colon cancer ,2004,61.1
+Canada,Colon cancer ,2009,64.9
+Canada,Colon cancer ,2014,67
+Canada,Stomach cancer ,2004,24.7
+Canada,Stomach cancer ,2009,26.2
+Canada,Stomach cancer ,2014,29.5
+Canada,Lung cancer ,2004,16.8
+Canada,Lung cancer ,2009,18.6
+Canada,Lung cancer ,2014,21.3
+Canada,Rectal cancer ,2004,61.5
+Canada,Rectal cancer ,2009,65.2
+Canada,Rectal cancer ,2014,67.1
+Chile,Lung cancer ,2004,7.1
+Chile,Lung cancer ,2009,6.3
+Chile,Lung cancer ,2014,4.6
+Chile,Rectal cancer ,2004,35.9
+Chile,Rectal cancer ,2009,39.5
+Chile,Rectal cancer ,2014,32.7
+Chile,Stomach cancer ,2004,14.5
+Chile,Stomach cancer ,2009,16.3
+Chile,Stomach cancer ,2014,16.7
+Chile,Colon cancer ,2004,35.5
+Chile,Colon cancer ,2009,47.1
+Chile,Colon cancer ,2014,43.9
+China,Rectal cancer ,2004,49.5
+China,Rectal cancer ,2009,52.5
+China,Rectal cancer ,2014,56.9
+China,Colon cancer ,2004,51.4
+China,Colon cancer ,2009,55.6
+China,Colon cancer ,2014,57.6
+China,Lung cancer ,2004,18.7
+China,Lung cancer ,2009,17.7
+China,Lung cancer ,2014,19.8
+China,Stomach cancer ,2004,30.2
+China,Stomach cancer ,2009,33.2
+China,Stomach cancer ,2014,35.9
+Colombia,Lung cancer ,2004,9.4
+Colombia,Lung cancer ,2009,10.5
+Colombia,Lung cancer ,2014,8.7
+Colombia,Rectal cancer ,2004,38.3
+Colombia,Rectal cancer ,2009,37.2
+Colombia,Rectal cancer ,2014,38
+Colombia,Stomach cancer ,2004,18.4
+Colombia,Stomach cancer ,2009,17.7
+Colombia,Stomach cancer ,2014,17.1
+Colombia,Colon cancer ,2004,45
+Colombia,Colon cancer ,2009,41.3
+Colombia,Colon cancer ,2014,34.5
+Costa Rica,Rectal cancer ,2004,48.4
+Costa Rica,Rectal cancer ,2009,50.2
+Costa Rica,Rectal cancer ,2014,53.9
+Costa Rica,Stomach cancer ,2004,48.4
+Costa Rica,Stomach cancer ,2009,38.4
+Costa Rica,Stomach cancer ,2014,40.6
+Costa Rica,Lung cancer ,2004,36.2
+Costa Rica,Lung cancer ,2009,22
+Costa Rica,Lung cancer ,2014,20.1
+Costa Rica,Colon cancer ,2004,63.8
+Costa Rica,Colon cancer ,2009,55.1
+Costa Rica,Colon cancer ,2014,60.1
+Croatia,Colon cancer ,2004,47.3
+Croatia,Colon cancer ,2009,49.5
+Croatia,Colon cancer ,2014,51.1
+Croatia,Stomach cancer ,2004,19.7
+Croatia,Stomach cancer ,2009,18.9
+Croatia,Stomach cancer ,2014,20
+Croatia,Lung cancer ,2004,11.2
+Croatia,Lung cancer ,2009,10.6
+Croatia,Lung cancer ,2014,10
+Croatia,Rectal cancer ,2004,44.4
+Croatia,Rectal cancer ,2009,47.1
+Croatia,Rectal cancer ,2014,48.2
+Cyprus,Lung cancer ,2004,18.3
+Cyprus,Lung cancer ,2009,18.2
+Cyprus,Lung cancer ,2014,18.7
+Cyprus,Stomach cancer ,2004,36.6
+Cyprus,Stomach cancer ,2009,28.1
+Cyprus,Stomach cancer ,2014,35.6
+Cyprus,Rectal cancer ,2004,61.9
+Cyprus,Rectal cancer ,2009,78.3
+Cyprus,Rectal cancer ,2014,75.9
+Cyprus,Colon cancer ,2004,70.7
+Cyprus,Colon cancer ,2009,67.6
+Cyprus,Colon cancer ,2014,72.1
+Czechia,Colon cancer ,2004,48
+Czechia,Colon cancer ,2009,52
+Czechia,Colon cancer ,2014,56.1
+Czechia,Stomach cancer ,2004,18.7
+Czechia,Stomach cancer ,2009,19.3
+Czechia,Stomach cancer ,2014,20.6
+Czechia,Rectal cancer ,2004,43.8
+Czechia,Rectal cancer ,2009,47.9
+Czechia,Rectal cancer ,2014,52.3
+Czechia,Lung cancer ,2004,8.6
+Czechia,Lung cancer ,2009,9.8
+Czechia,Lung cancer ,2014,10.6
+Denmark,Lung cancer ,2004,9.5
+Denmark,Lung cancer ,2009,12.3
+Denmark,Lung cancer ,2014,16.6
+Denmark,Colon cancer ,2004,51.5
+Denmark,Colon cancer ,2009,56.5
+Denmark,Colon cancer ,2014,61.6
+Denmark,Rectal cancer ,2004,53.2
+Denmark,Rectal cancer ,2009,59.8
+Denmark,Rectal cancer ,2014,64.8
+Denmark,Stomach cancer ,2004,14.7
+Denmark,Stomach cancer ,2009,15.4
+Denmark,Stomach cancer ,2014,19.9
+Estonia,Rectal cancer ,2004,46.4
+Estonia,Rectal cancer ,2009,50.5
+Estonia,Rectal cancer ,2014,54.8
+Estonia,Colon cancer ,2004,48.9
+Estonia,Colon cancer ,2009,53.8
+Estonia,Colon cancer ,2014,58.4
+Estonia,Lung cancer ,2004,10.8
+Estonia,Lung cancer ,2009,14.3
+Estonia,Lung cancer ,2014,16.9
+Estonia,Stomach cancer ,2004,22.3
+Estonia,Stomach cancer ,2009,24.2
+Estonia,Stomach cancer ,2014,29.2
+Finland,Stomach cancer ,2004,26
+Finland,Stomach cancer ,2009,25.1
+Finland,Stomach cancer ,2014,25.7
+Finland,Rectal cancer ,2004,59.9
+Finland,Rectal cancer ,2009,63.8
+Finland,Rectal cancer ,2014,64.4
+Finland,Colon cancer ,2004,61.3
+Finland,Colon cancer ,2009,63.2
+Finland,Colon cancer ,2014,64.9
+Finland,Lung cancer ,2004,11.9
+Finland,Lung cancer ,2009,12.1
+Finland,Lung cancer ,2014,13
+France,Lung cancer ,2004,14.1
+France,Lung cancer ,2009,16.2
+France,Lung cancer ,2014,17.3
+France,Colon cancer ,2004,60.7
+France,Colon cancer ,2009,63.6
+France,Colon cancer ,2014,63.7
+France,Stomach cancer ,2004,26.3
+France,Stomach cancer ,2009,27.1
+France,Stomach cancer ,2014,26.7
+France,Rectal cancer ,2004,58.3
+France,Rectal cancer ,2009,60.7
+France,Rectal cancer ,2014,60.9
+Germany,Colon cancer ,2004,62
+Germany,Colon cancer ,2009,64.9
+Germany,Colon cancer ,2014,64.8
+Germany,Lung cancer ,2004,14.9
+Germany,Lung cancer ,2009,16.9
+Germany,Lung cancer ,2014,18.3
+Germany,Stomach cancer ,2004,31.8
+Germany,Stomach cancer ,2009,31.4
+Germany,Stomach cancer ,2014,33.5
+Germany,Rectal cancer ,2004,60.9
+Germany,Rectal cancer ,2009,62.2
+Germany,Rectal cancer ,2014,62.3
+Iceland,Rectal cancer ,2004,71
+Iceland,Rectal cancer ,2009,66.3
+Iceland,Rectal cancer ,2014,63
+Iceland,Colon cancer ,2004,61.4
+Iceland,Colon cancer ,2009,64
+Iceland,Colon cancer ,2014,68.2
+Iceland,Stomach cancer ,2004,32.9
+Iceland,Stomach cancer ,2009,30.3
+Iceland,Stomach cancer ,2014,28.1
+Iceland,Lung cancer ,2004,14.1
+Iceland,Lung cancer ,2009,16
+Iceland,Lung cancer ,2014,20.2
+India,Rectal cancer ,2004,36.9
+India,Rectal cancer ,2009,33.6
+India,Rectal cancer ,2014,30
+India,Stomach cancer ,2004,6.4
+India,Stomach cancer ,2009,9.8
+India,Stomach cancer ,2014,8.9
+India,Colon cancer ,2004,46.9
+India,Colon cancer ,2009,33.8
+India,Colon cancer ,2014,38.9
+India,Lung cancer ,2004,6.9
+India,Lung cancer ,2009,3.5
+India,Lung cancer ,2014,3.7
+Ireland,Lung cancer ,2004,10.1
+Ireland,Lung cancer ,2009,13.5
+Ireland,Lung cancer ,2014,17.5
+Ireland,Stomach cancer ,2004,18.6
+Ireland,Stomach cancer ,2009,22.2
+Ireland,Stomach cancer ,2014,27.6
+Ireland,Colon cancer ,2004,53.3
+Ireland,Colon cancer ,2009,58.4
+Ireland,Colon cancer ,2014,60.5
+Ireland,Rectal cancer ,2004,51.1
+Ireland,Rectal cancer ,2009,57.1
+Ireland,Rectal cancer ,2014,61.7
+Italy,Lung cancer ,2004,14
+Italy,Lung cancer ,2009,15.5
+Italy,Lung cancer ,2014,15.9
+Italy,Rectal cancer ,2004,55.8
+Italy,Rectal cancer ,2009,61.1
+Italy,Rectal cancer ,2014,61.3
+Italy,Stomach cancer ,2004,31.6
+Italy,Stomach cancer ,2009,31.1
+Italy,Stomach cancer ,2014,30.5
+Italy,Colon cancer ,2004,59
+Italy,Colon cancer ,2009,64.3
+Italy,Colon cancer ,2014,64.2
+Japan,Rectal cancer ,2004,58.6
+Japan,Rectal cancer ,2009,64
+Japan,Rectal cancer ,2014,64.8
+Japan,Colon cancer ,2004,63.4
+Japan,Colon cancer ,2009,66.8
+Japan,Colon cancer ,2014,67.8
+Japan,Stomach cancer ,2004,50.5
+Japan,Stomach cancer ,2009,57.6
+Japan,Stomach cancer ,2014,60.3
+Japan,Lung cancer ,2004,29.3
+Japan,Lung cancer ,2009,29.3
+Japan,Lung cancer ,2014,32.9
+Korea,Rectal cancer ,2004,60.8
+Korea,Rectal cancer ,2009,68.1
+Korea,Rectal cancer ,2014,71.1
+Korea,Stomach cancer ,2004,48.6
+Korea,Stomach cancer ,2009,61.1
+Korea,Stomach cancer ,2014,68.9
+Korea,Colon cancer ,2004,60.5
+Korea,Colon cancer ,2009,68.1
+Korea,Colon cancer ,2014,71.8
+Korea,Lung cancer ,2004,15.3
+Korea,Lung cancer ,2009,19.9
+Korea,Lung cancer ,2014,25.1
+Latvia,Rectal cancer ,2004,35.8
+Latvia,Rectal cancer ,2009,42.5
+Latvia,Rectal cancer ,2014,49.5
+Latvia,Colon cancer ,2004,40.5
+Latvia,Colon cancer ,2009,43.8
+Latvia,Colon cancer ,2014,48.8
+Latvia,Stomach cancer ,2004,20.5
+Latvia,Stomach cancer ,2009,24
+Latvia,Stomach cancer ,2014,25.1
+Latvia,Lung cancer ,2004,13.6
+Latvia,Lung cancer ,2009,17.1
+Latvia,Lung cancer ,2014,18.3
+Lithuania,Lung cancer ,2004,8.8
+Lithuania,Lung cancer ,2009,8.8
+Lithuania,Lung cancer ,2014,9.9
+Lithuania,Rectal cancer ,2004,40.6
+Lithuania,Rectal cancer ,2009,48.8
+Lithuania,Rectal cancer ,2014,52.7
+Lithuania,Stomach cancer ,2004,22
+Lithuania,Stomach cancer ,2009,24.9
+Lithuania,Stomach cancer ,2014,27
+Lithuania,Colon cancer ,2004,44.5
+Lithuania,Colon cancer ,2009,51.1
+Lithuania,Colon cancer ,2014,56.9
+Malta,Stomach cancer ,2004,19.9
+Malta,Stomach cancer ,2009,24.8
+Malta,Stomach cancer ,2014,23.8
+Malta,Colon cancer ,2004,57
+Malta,Colon cancer ,2009,52.9
+Malta,Colon cancer ,2014,57.5
+Malta,Lung cancer ,2004,9.2
+Malta,Lung cancer ,2009,11.4
+Malta,Lung cancer ,2014,14.9
+Malta,Rectal cancer ,2004,55.1
+Malta,Rectal cancer ,2009,53.8
+Malta,Rectal cancer ,2014,56.1
+Netherlands,Lung cancer ,2004,12.4
+Netherlands,Lung cancer ,2009,15.7
+Netherlands,Lung cancer ,2014,17.3
+Netherlands,Colon cancer ,2004,58.1
+Netherlands,Colon cancer ,2009,60.9
+Netherlands,Colon cancer ,2014,63.1
+Netherlands,Rectal cancer ,2004,58
+Netherlands,Rectal cancer ,2009,63.1
+Netherlands,Rectal cancer ,2014,65.3
+Netherlands,Stomach cancer ,2004,19.7
+Netherlands,Stomach cancer ,2009,22.9
+Netherlands,Stomach cancer ,2014,25
+New Zealand,Lung cancer ,2004,11.4
+New Zealand,Lung cancer ,2009,12.4
+New Zealand,Lung cancer ,2014,15.3
+New Zealand,Rectal cancer ,2004,60.1
+New Zealand,Rectal cancer ,2009,63.3
+New Zealand,Rectal cancer ,2014,66
+New Zealand,Stomach cancer ,2004,24.6
+New Zealand,Stomach cancer ,2009,24.8
+New Zealand,Stomach cancer ,2014,25.7
+New Zealand,Colon cancer ,2004,61.4
+New Zealand,Colon cancer ,2009,62.8
+New Zealand,Colon cancer ,2014,64
+Norway,Rectal cancer ,2004,61.6
+Norway,Rectal cancer ,2009,65.8
+Norway,Rectal cancer ,2014,68.3
+Norway,Stomach cancer ,2004,22
+Norway,Stomach cancer ,2009,25.2
+Norway,Stomach cancer ,2014,26.2
+Norway,Lung cancer ,2004,11.8
+Norway,Lung cancer ,2009,15.4
+Norway,Lung cancer ,2014,18.1
+Norway,Colon cancer ,2004,58.4
+Norway,Colon cancer ,2009,62.8
+Norway,Colon cancer ,2014,64.9
+Poland,Stomach cancer ,2004,15.9
+Poland,Stomach cancer ,2009,19.9
+Poland,Stomach cancer ,2014,20.9
+Poland,Lung cancer ,2004,12.1
+Poland,Lung cancer ,2009,14.1
+Poland,Lung cancer ,2014,14.4
+Poland,Colon cancer ,2004,45.3
+Poland,Colon cancer ,2009,51.1
+Poland,Colon cancer ,2014,52.9
+Poland,Rectal cancer ,2004,42.5
+Poland,Rectal cancer ,2009,47.6
+Poland,Rectal cancer ,2014,48.4
+Portugal,Lung cancer ,2004,10.6
+Portugal,Lung cancer ,2009,14.1
+Portugal,Lung cancer ,2014,15.7
+Portugal,Rectal cancer ,2004,54.4
+Portugal,Rectal cancer ,2009,59.8
+Portugal,Rectal cancer ,2014,59.6
+Portugal,Stomach cancer ,2004,29.8
+Portugal,Stomach cancer ,2009,32.4
+Portugal,Stomach cancer ,2014,32.2
+Portugal,Colon cancer ,2004,56.5
+Portugal,Colon cancer ,2009,61.1
+Portugal,Colon cancer ,2014,60.9
+Romania,Stomach cancer ,2009,19.3
+Romania,Stomach cancer ,2014,26
+Romania,Rectal cancer ,2009,44.8
+Romania,Rectal cancer ,2014,58.4
+Romania,Lung cancer ,2009,7.8
+Romania,Lung cancer ,2014,11.1
+Romania,Colon cancer ,2009,53.5
+Romania,Colon cancer ,2014,52.2
+Russia,Stomach cancer ,2004,22.9
+Russia,Stomach cancer ,2009,20.2
+Russia,Stomach cancer ,2014,21
+Russia,Rectal cancer ,2004,38.5
+Russia,Rectal cancer ,2009,38.9
+Russia,Rectal cancer ,2014,41.9
+Russia,Lung cancer ,2004,16.8
+Russia,Lung cancer ,2009,13.9
+Russia,Lung cancer ,2014,13.7
+Russia,Colon cancer ,2004,40.4
+Russia,Colon cancer ,2009,42.4
+Russia,Colon cancer ,2014,44.9
+Singapore,Colon cancer ,2004,56.1
+Singapore,Colon cancer ,2009,60.3
+Singapore,Colon cancer ,2014,61.7
+Singapore,Lung cancer ,2004,10.3
+Singapore,Lung cancer ,2009,13
+Singapore,Lung cancer ,2014,15.5
+Singapore,Rectal cancer ,2004,51.4
+Singapore,Rectal cancer ,2009,59
+Singapore,Rectal cancer ,2014,60.5
+Singapore,Stomach cancer ,2004,25.4
+Singapore,Stomach cancer ,2009,27.1
+Singapore,Stomach cancer ,2014,30.3
+Slovak Republic,Lung cancer ,2004,9.5
+Slovak Republic,Lung cancer ,2009,10.5
+Slovak Republic,Lung cancer ,2014,11.2
+Slovak Republic,Colon cancer ,2004,50.4
+Slovak Republic,Colon cancer ,2009,51.2
+Slovak Republic,Colon cancer ,2014,51.8
+Slovak Republic,Stomach cancer ,2004,20.6
+Slovak Republic,Stomach cancer ,2009,20.9
+Slovak Republic,Stomach cancer ,2014,21.1
+Slovak Republic,Rectal cancer ,2004,43.6
+Slovak Republic,Rectal cancer ,2009,47.5
+Slovak Republic,Rectal cancer ,2014,48.6
+Slovenia,Rectal cancer ,2004,48.6
+Slovenia,Rectal cancer ,2009,57
+Slovenia,Rectal cancer ,2014,60.3
+Slovenia,Stomach cancer ,2004,25.9
+Slovenia,Stomach cancer ,2009,25.8
+Slovenia,Stomach cancer ,2014,28.8
+Slovenia,Colon cancer ,2004,53.6
+Slovenia,Colon cancer ,2009,56.2
+Slovenia,Colon cancer ,2014,61.9
+Slovenia,Lung cancer ,2004,9.9
+Slovenia,Lung cancer ,2009,12.7
+Slovenia,Lung cancer ,2014,14.8
+South Africa,Stomach cancer ,2009,25
+South Africa,Stomach cancer ,2014,25.6
+South Africa,Lung cancer ,2009,16.7
+South Africa,Lung cancer ,2014,15
+South Africa,Rectal cancer ,2009,19.9
+South Africa,Rectal cancer ,2014,9.1
+South Africa,Colon cancer ,2009,31.9
+South Africa,Colon cancer ,2014,12.3
+Spain,Colon cancer ,2004,56.5
+Spain,Colon cancer ,2009,61
+Spain,Colon cancer ,2014,63.3
+Spain,Stomach cancer ,2004,25.7
+Spain,Stomach cancer ,2009,26.5
+Spain,Stomach cancer ,2014,27.2
+Spain,Rectal cancer ,2004,55.1
+Spain,Rectal cancer ,2009,58.7
+Spain,Rectal cancer ,2014,59.5
+Spain,Lung cancer ,2004,10.8
+Spain,Lung cancer ,2009,12.5
+Spain,Lung cancer ,2014,13.5
+Sweden,Lung cancer ,2004,13.9
+Sweden,Lung cancer ,2009,16.6
+Sweden,Lung cancer ,2014,19.5
+Sweden,Colon cancer ,2004,60.2
+Sweden,Colon cancer ,2009,64.2
+Sweden,Colon cancer ,2014,64.9
+Sweden,Stomach cancer ,2004,21.2
+Sweden,Stomach cancer ,2009,23.6
+Sweden,Stomach cancer ,2014,24.8
+Sweden,Rectal cancer ,2004,59.9
+Sweden,Rectal cancer ,2009,63
+Sweden,Rectal cancer ,2014,64.7
+Switzerland,Rectal cancer ,2004,59.5
+Switzerland,Rectal cancer ,2009,65.6
+Switzerland,Rectal cancer ,2014,67.3
+Switzerland,Lung cancer ,2004,14.7
+Switzerland,Lung cancer ,2009,17.3
+Switzerland,Lung cancer ,2014,20.4
+Switzerland,Colon cancer ,2004,62.8
+Switzerland,Colon cancer ,2009,65.1
+Switzerland,Colon cancer ,2014,67.3
+Switzerland,Stomach cancer ,2004,29.2
+Switzerland,Stomach cancer ,2009,31.4
+Switzerland,Stomach cancer ,2014,32.2
+Turkiye,Stomach cancer ,2004,21.9
+Turkiye,Stomach cancer ,2009,21.4
+Turkiye,Stomach cancer ,2014,24.6
+Turkiye,Lung cancer ,2004,11.9
+Turkiye,Lung cancer ,2009,12.7
+Turkiye,Lung cancer ,2014,14.9
+Turkiye,Rectal cancer ,2004,48.5
+Turkiye,Rectal cancer ,2009,49.3
+Turkiye,Rectal cancer ,2014,52.6
+Turkiye,Colon cancer ,2004,52.9
+Turkiye,Colon cancer ,2009,52.7
+Turkiye,Colon cancer ,2014,55.2
+United Kingdom,Colon cancer ,2004,52
+United Kingdom,Colon cancer ,2009,56.5
+United Kingdom,Colon cancer ,2014,60
+United Kingdom,Rectal cancer ,2004,54.6
+United Kingdom,Rectal cancer ,2009,58.7
+United Kingdom,Rectal cancer ,2014,62.5
+United Kingdom,Stomach cancer ,2004,16.2
+United Kingdom,Stomach cancer ,2009,19.2
+United Kingdom,Stomach cancer ,2014,20.7
+United Kingdom,Lung cancer ,2004,8.3
+United Kingdom,Lung cancer ,2009,10.1
+United Kingdom,Lung cancer ,2014,13.3
+United States,Stomach cancer ,2004,26.2
+United States,Stomach cancer ,2009,30.1
+United States,Stomach cancer ,2014,33.1
+United States,Colon cancer ,2004,64.7
+United States,Colon cancer ,2009,65.5
+United States,Colon cancer ,2014,64.9
+United States,Lung cancer ,2004,17
+United States,Lung cancer ,2009,19.4
+United States,Lung cancer ,2014,21.2
+United States,Rectal cancer ,2004,63.9
+United States,Rectal cancer ,2009,64.5
+United States,Rectal cancer ,2014,64.1

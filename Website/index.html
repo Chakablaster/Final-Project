@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chronic Diseases World Map</title>
+    <title>Global Health Insights</title>
     <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <h1>Global Prevalence of Chronic Diseases and Risk Factors</h1>
-
-    <!-- Disease Selection Buttons -->
-    <div id="buttons">
-        <button onclick="updateMap('asthma')">Asthma</button>
-        <button onclick="updateMap('diabetes')">Diabetes</button>
-        <button onclick="updateMap('heart_failure')">Heart Failure and Hypertension</button>
-    </div>
-
-    <!-- Note about units -->
-    <p>Values represent hospital admissions per 100,000 inhabitants</p>
-
-    <!-- SVG for the map -->
-    <svg width="960" height="600"></svg>
-
-    <!-- Legend -->
-    <div id="legend">
-        <svg width="300" height="50"></svg>
-    </div>
-
-    <!-- Include D3.js -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <!-- Link to external JS file -->
     <script src="world_map.js"></script>
-</body>
+    <script src="cancer_survival_chart.js"></script>
+    <script src="init_scripts.js"></script>    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#risk-factors">Risk Factors</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
+    <section id="home">
+        <h1>Welcome to Global Health Insights</h1>
+        <p>Explore the global prevalence of chronic diseases and discover ways to mitigate risk factors through prevention strategies and lifestyle changes.</p>
+    </section>
+
+    <section id="map">
+        <h2>Global Prevalence of Chronic Diseases</h2>
+        <div id="buttons">
+            <button onclick="updateMap('asthma')">Asthma</button>
+            <button onclick="updateMap('diabetes')">Diabetes</button>
+            <button onclick="updateMap('heart_failure')">Heart Failure & Hypertension</button>
+        </div>
+        <p>Values represent hospital admissions per 100,000 inhabitants in 2020</p>
+        <svg id="mapSvg" width="960" height="600"></svg>
+        <div id="legend">
+            <svg width="300" height="125"></svg>
+        </div>
+    </section>
+
+    <section id="cancer-survival">
+        <h2>Cancer Survival Rates by Country and Type</h2>
+        <div>
+            <label for="countryFilter">Select Country:</label>
+            <select id="countryFilter">
+                <option value="all">All Countries</option>
+            </select>
+        </div>
+        <svg id="cancerSurvivalSvg" width="800" height="500"></svg>
+    </section>
+
+    <section id="risk-factors">
+        <h2>Risk Factors & Prevention Strategies</h2>
+        <p>Chronic diseases such as diabetes, asthma, and heart conditions are influenced by several modifiable risk factors, including:</p>
+        <ul>
+            <li>Poor diet and physical inactivity</li>
+            <li>Smoking and alcohol consumption</li>
+            <li>Environmental pollutants</li>
+        </ul>
+        <p>Implementing healthy lifestyle practices can significantly reduce these risks.</p>
+    </section>
+</body>
 </html>
