@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Health Insights</title>
+    <title>Global Health Insights - Chronic Diseases and Risk Factors</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="world_map.js"></script>
     <script src="cancer_survival_chart.js"></script>
+    <script src="donut_chart.js"></script>
     <script src="init_scripts.js"></script>    
 </head>
 <body>
@@ -22,7 +23,7 @@
     </nav>
 
     <section id="home">
-        <h1>Welcome to Global Health Insights</h1>
+        <h1>Welcome to Global Health Insights - Chronic Diseases and Risk Factors</h1>
         <p>Explore the global prevalence of chronic diseases and discover ways to mitigate risk factors through prevention strategies and lifestyle changes.</p>
     </section>
 
@@ -50,6 +51,24 @@
         </div>
         <svg id="cancerSurvivalSvg" width="800" height="500"></svg>
     </section>
+
+    <section id="donut-charts">
+        <h2>Global Health Risk Factors</h2>
+        <div class="donut-chart-row">
+            <div class="donut-chart">
+                <h3>Average Alcohol Consumption since 2010</h3>
+                <svg id="alcoholChart" width="500" height="500"></svg>
+            </div>
+            <div class="donut-chart">
+                <h3>Average Tobacco Consumption since 2010</h3>
+                <svg id="tobaccoChart" width="500" height="500"></svg>
+            </div>
+            <div class="donut-chart">
+                <h3>Average Obesity Percentage since 2010</h3>
+                <svg id="obesityChart" width="500" height="500"></svg>
+            </div>
+        </div>
+    </section>          
 
     <section id="risk-factors">
         <h2>Risk Factors & Prevention Strategies</h2>
