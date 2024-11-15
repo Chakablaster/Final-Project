@@ -8,4 +8,10 @@ window.onload = function() {
     if (typeof initAllDonutCharts === "function") {
         initAllDonutCharts();  // Initialize donut chart
     }
+    if (typeof initBubbleChart === "function") {
+        initBubbleChart();  // Initialize bubble chart
+    }
+    if (typeof initStackedBarChart === "function") {
+        initStackedBarChart();  // Initialize the stacked bar chart
+    } 
 };

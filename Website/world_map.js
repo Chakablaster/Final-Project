@@ -32,7 +32,7 @@ function init() {
 
     // Load the GeoJSON world map data once and reuse it
     let geoData;
-    d3.json("world.geojson").then(json => {
+    d3.json("https://raw.githubusercontent.com/Chakablaster/Final-Project/refs/heads/main/Website/world.geojson").then(json => {
         geoData = json;
         updateMap('asthma');  // Load asthma data by default
     });

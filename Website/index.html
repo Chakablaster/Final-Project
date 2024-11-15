@@ -3,46 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Health Insights - Chronic Diseases and Risk Factors</title>
+    <meta name="description" content="HealthX - Empowering Health Awareness through Data Visualization.">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="world_map.js"></script>
-    <script src="cancer_survival_chart.js"></script>
-    <script src="donut_chart.js"></script>
-    <script src="init_scripts.js"></script>    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>HealthX - Chronic Disease Insights</title>
+
+    <!-- Load D3.js library asynchronously -->
+    <script src="https://d3js.org/d3.v7.min.js" defer></script>
+    <script src="world_map.js" defer></script>
+    <script src="cancer_survival_chart.js" defer></script>
+    <script src="bubble_chart.js" defer></script>
+    <script src="donut_chart.js" defer></script>
+    <script src="cd_barchart.js" defer></script>
+    <script src="init_scripts.js" defer></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#map">Map</a></li>
-            <li><a href="#risk-factors">Risk Factors</a></li>
-            <li><a href="#resources">Resources</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#global-impact">Global Impact</a></li>
+                <li><a href="#disease-trends">Disease Trends</a></li>
+                <li><a href="#risk-factors">Risk Factors</a></li>
+                <li><a href="#prevention">Prevention</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Hero Section -->
     <section id="home">
-        <h1>Welcome to Global Health Insights - Chronic Diseases and Risk Factors</h1>
-        <p>Explore the global prevalence of chronic diseases and discover ways to mitigate risk factors through prevention strategies and lifestyle changes.</p>
+        <div class="hero">
+            <h1>Welcome to HealthX</h1>
+            <p>Empowering Health Awareness through Data Visualization</p>
+            <p>Discover the global impact of chronic diseases, explore data-driven insights, and learn preventive strategies.</p>
+            <a href="#overview" class="cta-button">Explore Now</a>
+        </div>
     </section>
 
-    <section id="map">
-        <h2>Global Prevalence of Chronic Diseases</h2>
+    <!-- Overview Section -->
+    <section id="overview">
+        <h2>About HealthX</h2>
+        <p>At HealthX, our mission is to present crucial health insights through innovative data visualization. We aim to inform the public and healthcare professionals about the prevalence of chronic diseases globally and encourage preventative practices. Dive into our interactive visuals to see the bigger picture on global health.</p>
+    </section>
+
+    <!-- Global Map Section -->
+    <section id="global-impact">
+        <h2>Global Impact of Chronic Diseases</h2>
+        <p>Explore the prevalence of various chronic diseases around the world. Use the map below to view hospital admission rates per 100,000 people across different regions.</p>
         <div id="buttons">
             <button onclick="updateMap('asthma')">Asthma</button>
             <button onclick="updateMap('diabetes')">Diabetes</button>
             <button onclick="updateMap('heart_failure')">Heart Failure & Hypertension</button>
         </div>
-        <p>Values represent hospital admissions per 100,000 inhabitants in 2020</p>
         <svg id="mapSvg" width="960" height="600"></svg>
         <div id="legend">
             <svg width="300" height="125"></svg>
         </div>
     </section>
 
+    <!-- Disease Trends Section -->
+    <section id="disease-trends">
+        <h2>Hospital Admissions and Mortality Rates for Chronic Diseases</h2>
+        <p>See how hospital admissions and mortality rates for chronic diseases have changed over the years. This data helps highlight the importance of healthcare interventions and resource allocation.</p>
+        <div id="barChart"></div>
+    </section>
+
     <section id="cancer-survival">
         <h2>Cancer Survival Rates by Country and Type</h2>
+        <p>Select a country to view survival rates for various types of cancer. Understanding survival trends across regions can shed light on healthcare quality and access.</p>
         <div>
             <label for="countryFilter">Select Country:</label>
             <select id="countryFilter">
@@ -52,33 +82,57 @@
         <svg id="cancerSurvivalSvg" width="800" height="500"></svg>
     </section>
 
-    <section id="donut-charts">
+    <section id="bubble-chart">
+        <h2>Chronic Disease Mortality Rates by Country</h2>
+        <p>Explore the mortality rates for chronic diseases by country. High mortality rates emphasize the need for preventative care and health education.</p>
+        <div id="chartInfo">
+            <p>Deaths per 100,000 inhabitants from 2010-2022</p>
+        </div>
+        <div id="filterControls">
+            <div id="asthma" class="disease-icon">Asthma</div>
+            <div id="cancer" class="disease-icon">Cancer</div>
+            <div id="diabetes" class="disease-icon">Diabetes</div>
+            <div id="heart_diseases" class="disease-icon">Heart Diseases</div>
+        </div>
+        <svg id="bubbleChartSvg"></svg>
+    </section>
+
+    <!-- Risk Factors Section -->
+    <section id="risk-factors">
         <h2>Global Health Risk Factors</h2>
+        <p>Chronic diseases are heavily influenced by lifestyle factors. The charts below highlight average alcohol and tobacco consumption, as well as obesity rates, which are significant contributors to disease prevalence.</p>
         <div class="donut-chart-row">
             <div class="donut-chart">
-                <h3>Average Alcohol Consumption since 2010</h3>
+                <h3>Average Alcohol Consumption</h3>
                 <svg id="alcoholChart" width="500" height="500"></svg>
             </div>
             <div class="donut-chart">
-                <h3>Average Tobacco Consumption since 2010</h3>
+                <h3>Average Tobacco Consumption</h3>
                 <svg id="tobaccoChart" width="500" height="500"></svg>
             </div>
             <div class="donut-chart">
-                <h3>Average Obesity Percentage since 2010</h3>
+                <h3>Average Obesity Percentage</h3>
                 <svg id="obesityChart" width="500" height="500"></svg>
             </div>
         </div>
-    </section>          
-
-    <section id="risk-factors">
-        <h2>Risk Factors & Prevention Strategies</h2>
-        <p>Chronic diseases such as diabetes, asthma, and heart conditions are influenced by several modifiable risk factors, including:</p>
-        <ul>
-            <li>Poor diet and physical inactivity</li>
-            <li>Smoking and alcohol consumption</li>
-            <li>Environmental pollutants</li>
-        </ul>
-        <p>Implementing healthy lifestyle practices can significantly reduce these risks.</p>
     </section>
+
+    <!-- Prevention Strategies Section -->
+    <section id="prevention">
+        <h2>Prevention Strategies</h2>
+        <p>Reducing the impact of chronic diseases requires proactive measures. Here are some effective strategies to minimize your risk:</p>
+        <ul>
+            <li>Adopt a balanced diet and stay physically active.</li>
+            <li>Avoid smoking and excessive alcohol consumption.</li>
+            <li>Monitor and manage existing health conditions.</li>
+        </ul>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 HealthX. All rights reserved.</p>
+        <p><strong>Name:</strong> Mohamed Usaidh Abdul Razzaq | <strong>Course:</strong> COS30045 - Data Visualization | <strong>Student ID:</strong> 105017157</p>
+    </footer>    
 </body>
 </html>

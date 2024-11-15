@@ -1,81 +1,345 @@
+/* Root colors for easy theme management */
+:root {
+    --primary-green: #1abc9c;   /* A fresh teal for primary color */
+    --secondary-blue: #3498db;  /* A vibrant blue for accents */
+    --background-dark: #2c3e50; /* Dark background for contrast */
+    --background-light: #ecf0f1; /* Light gray for soft backgrounds */
+    --text-color-dark: #2c3e50; /* Darker gray for readability */
+    --text-color-light: #ffffff; /* White text for dark backgrounds */
+}
+
+
+/* General Body Styling */
 body {
+    background-color: #29c4aa;
+    color: var(--text-color);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8;
     text-align: center;
+    padding-top: 60px; /* Offset for fixed navbar */
 }
 
+/* Fixed Navigation Bar Styling */
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    background-color: #333;
+    background-color: #29c4aa; /* White background for a clean look */
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: fixed; /* Fixes the nav bar to the viewport */
+    top: 0; /* Positions it at the top */
+    width: 100%; /* Full width to cover entire viewport */
+    z-index: 1000; /* High z-index to keep it on top of other elements */
 }
 
 nav ul li {
-    display: inline;
+    display: inline; /* Horizontal layout */
     margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
+    color: var(--text-color); /* Dark text color for readability */
     text-decoration: none;
-    font-size: 16px;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-}
-
-#map svg {
-    display: block;
-    margin: 0 auto;
-    background-color: #fff;
-    border: 1px solid #ddd;
-}
-
-button {
-    margin: 10px;
-    padding: 10px;
-    font-size: 14px;
-}
-
-form input, form textarea {
-    width: 300px;
-    margin: 5px 0;
-    padding: 8px;
-}
-
-form button {
     padding: 10px 20px;
+    font-size: 16px;
+    transition: color 0.3s; /* Smooth color transition on hover */
 }
 
-.donut-chart-row {
-    display: flex;
-    justify-content: center; /* Change to center alignment */
-    padding: 20px;
+nav ul li a:hover {
+    color: var(--primary-green); /* Green color on hover for focus */
 }
 
-.donut-chart {
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, var(--primary-green), #66BB6A); /* Green gradient */
+    color: white;
+    padding: 60px 20px;
     text-align: center;
-    width: 700px; /* Adjust width if necessary */
-    height: 700px; /* Adjust height if necessary */
 }
 
-h3 {
-    font-size: 22px;
-    font-weight: bold;
+.hero h1 {
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
+.hero p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.hero .cta-button {
+    background-color: white; /* White button for contrast */
+    color: var(--primary-green);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.hero .cta-button:hover {
+    background-color: var(--secondary-green); /* Darker green on hover */
+    color: white;
+}
+
+/* Section Headers and Text */
+section {
+    padding: 40px 20px;
+    background-color: white; /* White background for contrast */
+    margin: 20px 0;
+    border-radius: 8px; /* Rounded corners for a soft look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    color: var(--primary-green); /* Green header text */
+    border-bottom: 2px solid var(--primary-green); /* Green underline */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6; /* Improved readability */
+    color: var(--text-color);
+}
+
+/* Chart Container Styling with Grid */
+#cancer-survival-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Adds spacing between charts */
+    justify-items: center; /* Center each chart within the grid */
+    padding: 20px;
+}
+
+/* Button Styling */
+button, .filter-button {
+    background-color: var(--primary-green); /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px; /* Adds space between buttons */
+}
+
+/* Hover effect for buttons */
+button:hover, .filter-button:hover {
+    background-color: var(--secondary-green); /* Darker green on hover */
+}
+
+/* Cancer Survival Chart Container Styling */
+#cancerSurvivalChartContainer {
+    position: relative;
+    height: auto; /* Revert to auto height */
+    margin: 20px auto;
+    padding-right: 10px;
+    scroll-behavior: smooth;
+}
+
+/* Chart Styling */
+.chart {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for individual charts */
+    background-color: #f9f9f9;  /* Light gray background for each chart */
+    border-radius: 8px;  /* Rounded corners */
+}
+
+/* Charts and Visualizations */
+.donut-chart, #barChart, #bubbleChartSvg, #cancerSurvivalSvg {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Styling for displaying donut charts in a row */
+.donut-chart-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.donut-chart {
+    width: 600px; /* Increased width to fit full chart */
+    height: auto;
+    text-align: center;
+}
+
+.donut-chart svg {
+    width: 100%; /* Make sure the SVG scales to the container */
+    height: auto;
+}
+
+.disease-icon {
+    background-color: #E8F5E9; /* Light green for inactive state */
+    color: var(--secondary-green);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Ensure smooth color transition */
+}
+
+.disease-icon.active {
+    background-color: var(--primary-green); /* Highlight active filter */
+    color: white;
+}
+
+.disease-icon:hover {
+    background-color: var(--primary-green); /* Highlight on hover */
+    color: white;
+}
+
+/* Styling for the filter dropdown container */
+#cancer-survival div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Label styling for the dropdown */
+#cancer-survival label {
+    font-size: 16px;
+    color: var(--primary-green); /* Matches primary theme color */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Styling for dropdown scrollbar */
+#countryFilter {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: var(--text-color-dark);
+    background-color: var(--background-light);
+    border: 2px solid var(--primary-green);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    outline: none;
+    overflow-y: auto; /* Enables scrollbar for long lists */
+}
+
+/* Scrollbar styling for WebKit browsers (Chrome, Safari, Edge) */
+#countryFilter::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+#countryFilter::-webkit-scrollbar-track {
+    background: var(--background-light); /* Track background */
+    border-radius: 5px;
+}
+
+#countryFilter::-webkit-scrollbar-thumb {
+    background-color: var(--primary-green); /* Scrollbar thumb color */
+    border-radius: 5px;
+    border: 2px solid var(--background-light); /* Adds padding around the thumb */
+}
+
+#countryFilter::-webkit-scrollbar-thumb:hover {
+    background-color: var(--secondary-l); /* Thumb color on hover */
+}
+
+/* Firefox scrollbar styling */
+#countryFilter {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: var(--primary-green) var(--background-light); /* Thumb and track colors */
+}
+
+
+/* Hover and focus effects for the dropdown */
+#countryFilter:hover {
+    border-color: var(--secondary-blue); /* Change border color on hover */
+}
+
+#countryFilter:focus {
+    border-color: var(--secondary-blue); /* Change border color on focus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on focus */
+}
+
+/* Footer Styling with Contact Details */
+footer {
+    background-color: white; /* Clean footer background */
+    color: var(--primary-green); /* Green text for consistency */
+    padding: 20px;
+    font-size: 14px;
+    border-top: 1px solid #e0e0e0; /* Subtle border for separation */
+    text-align: center;
+    line-height: 1.6;
+}
+
+footer p {
+    margin: 5px 0; /* Spacing for readability */
+}
+
+footer strong {
+    color: var(--secondary-green); /* Darker green for emphasis on labels */
+}
+
+/* Tooltip Styling for Charts */
 .tooltip {
     position: absolute;
     background-color: white;
     border: 1px solid #ccc;
     padding: 5px;
     font-size: 12px;
+    border-radius: 4px;
     pointer-events: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Legend Styling for Maps and Charts */
+#legend div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#legend span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+/* Responsive Layout Adjustments */
+@media (max-width: 768px) {
+    /* Adjust navigation for smaller screens */
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    section {
+        padding: 20px 10px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .hero .cta-button {
+        font-size: 16px;
+    }
+
+    /* Single column layout for charts on small screens */
+    #cancer-survival-charts {
+        grid-template-columns: 1fr;
+    }
+
+    /* Stack donut charts vertically on small screens */
+    .donut-chart-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}

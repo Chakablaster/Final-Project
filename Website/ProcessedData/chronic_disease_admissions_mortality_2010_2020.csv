@@ -1,0 +1,10 @@
+Year,Disease,Hospital_Admissions,Mortality_Rate
+2020,Asthma,23.56,1.21
+2020,Diabetes,113.46,31.05
+2020,Heart Diseases,243.39,116.73
+2015,Asthma,46.81,1.79
+2015,Diabetes,156.25,28.00
+2015,Heart Diseases,330.52,133.18
+2010,Asthma,50.30,2.10
+2010,Diabetes,166.85,27.58
+2010,Heart Diseases,329.10,161.30

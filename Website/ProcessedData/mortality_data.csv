@@ -1,0 +1,180 @@
+country,disease,mortalityRate
+Argentina,Asthma,15.7
+Australia,Asthma,23.8
+Austria,Asthma,8.8
+Belgium,Asthma,10
+Brazil,Asthma,24.4
+Bulgaria,Asthma,5
+Canada,Asthma,9.2
+Chile,Asthma,25.5
+Colombia,Asthma,9
+Costa Rica,Asthma,18.7
+Croatia,Asthma,17.6
+Czechia,Asthma,15.5
+Denmark,Asthma,13.2
+Estonia,Asthma,26.1
+Finland,Asthma,15.2
+France,Asthma,11.5
+Germany,Asthma,11.5
+Greece,Asthma,1.1
+Hungary,Asthma,15.9
+Iceland,Asthma,10.5
+Ireland,Asthma,16.9
+Italy,Asthma,5.8
+Japan,Asthma,9.4
+Korea,Asthma,50.5
+Latvia,Asthma,19.7
+Lithuania,Asthma,15.6
+Luxembourg,Asthma,12.1
+Mexico,Asthma,27.4
+Netherlands,Asthma,8.8
+New Zealand,Asthma,13.1
+Norway,Asthma,11.1
+Peru,Asthma,12.5
+Poland,Asthma,16.1
+Portugal,Asthma,10.5
+Romania,Asthma,12.4
+Slovak Republic,Asthma,9.8
+Slovenia,Asthma,10.4
+South Africa,Asthma,156.2
+Spain,Asthma,20.1
+Sweden,Asthma,13.9
+Switzerland,Asthma,11
+Turkiye,Asthma,50.8
+United Kingdom,Asthma,20.8
+United States,Asthma,14
+Argentina,Cancer,2422.4
+Australia,Cancer,2629.8
+Austria,Cancer,2489.8
+Belgium,Cancer,2347.3
+Brazil,Cancer,2019.5
+Bulgaria,Cancer,2511
+Canada,Cancer,2756.9
+Chile,Cancer,2427.3
+Colombia,Cancer,1774
+Costa Rica,Cancer,2085.9
+Croatia,Cancer,3397.9
+Czechia,Cancer,2918.2
+Denmark,Cancer,2999.5
+Estonia,Cancer,3178.2
+Finland,Cancer,2251.1
+France,Cancer,2303.6
+Germany,Cancer,2379.5
+Greece,Cancer,2342.2
+Hungary,Cancer,3870.4
+Iceland,Cancer,2723.9
+Ireland,Cancer,2624.3
+Italy,Cancer,2324.1
+Japan,Cancer,2247.3
+Korea,Cancer,2176.9
+Latvia,Cancer,3099.4
+Lithuania,Cancer,3142.2
+Luxembourg,Cancer,2570.2
+Mexico,Cancer,1535.6
+Netherlands,Cancer,3077.2
+New Zealand,Cancer,1604.4
+Norway,Cancer,1526.4
+Peru,Cancer,1375.4
+Poland,Cancer,3024.9
+Portugal,Cancer,2114.4
+Romania,Cancer,2390.6
+Russia,Cancer,1539.1
+Slovak Republic,Cancer,2664
+Slovenia,Cancer,2881.7
+South Africa,Cancer,1513.9
+Spain,Cancer,2395.2
+Sweden,Cancer,2517.1
+Switzerland,Cancer,2208
+Turkiye,Cancer,1697.8
+United Kingdom,Cancer,2599
+United States,Cancer,2368.8
+Argentina,Diabetes,361.2
+Australia,Diabetes,272.8
+Austria,Diabetes,363.6
+Belgium,Diabetes,129.3
+Brazil,Diabetes,673.9
+Bulgaria,Diabetes,234.3
+Canada,Diabetes,254
+Chile,Diabetes,391.5
+Colombia,Diabetes,378.4
+Costa Rica,Diabetes,506.9
+Croatia,Diabetes,591.2
+Czechia,Diabetes,404.8
+Denmark,Diabetes,260.3
+Estonia,Diabetes,183.6
+Finland,Diabetes,100.2
+France,Diabetes,150.4
+Germany,Diabetes,245.5
+Greece,Diabetes,132.6
+Hungary,Diabetes,371.4
+Iceland,Diabetes,136.5
+Ireland,Diabetes,165.6
+Italy,Diabetes,275.8
+Japan,Diabetes,82.5
+Korea,Diabetes,311.7
+Latvia,Diabetes,290.5
+Lithuania,Diabetes,167.7
+Luxembourg,Diabetes,178
+Mexico,Diabetes,2074.9
+Netherlands,Diabetes,200.7
+New Zealand,Diabetes,146.3
+Norway,Diabetes,91.4
+Peru,Diabetes,293.8
+Poland,Diabetes,269.4
+Portugal,Diabetes,334.1
+Romania,Diabetes,119.2
+Russia,Diabetes,99.4
+Slovak Republic,Diabetes,166.5
+Slovenia,Diabetes,151.5
+South Africa,Diabetes,1017.5
+Spain,Diabetes,201.4
+Sweden,Diabetes,228.7
+Switzerland,Diabetes,152.8
+Turkiye,Diabetes,430.1
+United Kingdom,Diabetes,105.3
+United States,Diabetes,327.9
+Argentina,Heart_Diseases,361.2
+Australia,Heart_Diseases,272.8
+Austria,Heart_Diseases,363.6
+Belgium,Heart_Diseases,129.3
+Brazil,Heart_Diseases,673.9
+Bulgaria,Heart_Diseases,234.3
+Canada,Heart_Diseases,254
+Chile,Heart_Diseases,391.5
+Colombia,Heart_Diseases,378.4
+Costa Rica,Heart_Diseases,506.9
+Croatia,Heart_Diseases,591.2
+Czechia,Heart_Diseases,404.8
+Denmark,Heart_Diseases,260.3
+Estonia,Heart_Diseases,183.6
+Finland,Heart_Diseases,100.2
+France,Heart_Diseases,150.4
+Germany,Heart_Diseases,245.5
+Greece,Heart_Diseases,132.6
+Hungary,Heart_Diseases,371.4
+Iceland,Heart_Diseases,136.5
+Ireland,Heart_Diseases,165.6
+Italy,Heart_Diseases,275.8
+Japan,Heart_Diseases,82.5
+Korea,Heart_Diseases,311.7
+Latvia,Heart_Diseases,290.5
+Lithuania,Heart_Diseases,167.7
+Luxembourg,Heart_Diseases,178
+Mexico,Heart_Diseases,2074.9
+Netherlands,Heart_Diseases,200.7
+New Zealand,Heart_Diseases,146.3
+Norway,Heart_Diseases,91.4
+Peru,Heart_Diseases,293.8
+Poland,Heart_Diseases,269.4
+Portugal,Heart_Diseases,334.1
+Romania,Heart_Diseases,119.2
+Russia,Heart_Diseases,99.4
+Slovak Republic,Heart_Diseases,166.5
+Slovenia,Heart_Diseases,151.5
+South Africa,Heart_Diseases,1017.5
+Spain,Heart_Diseases,201.4
+Sweden,Heart_Diseases,228.7
+Switzerland,Heart_Diseases,152.8
+Turkiye,Heart_Diseases,430.1
+United Kingdom,Heart_Diseases,105.3
+United States,Heart_Diseases,327.9

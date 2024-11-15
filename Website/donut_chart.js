@@ -1,5 +1,5 @@
 function initAllDonutCharts() {
-    const width = 700, height = 700, radius = Math.min(width, height) / 2;
+    const width = 650, height = 650, radius = Math.min(width, height) / 2;
 
     // Initialize three donut charts with respective data files and units
     createDonutChart("alcoholChart", "avg_alcohol_consumption.csv", "Alcohol Consumption", "litres per person");
@@ -33,7 +33,7 @@ function initAllDonutCharts() {
         const centerText = svg.append("text")
             .attr("text-anchor", "middle")
             .attr("dy", "-0.5em")
-            .style("font-size", "24px")
+            .style("font-size", "20px")
             .style("font-weight", "bold")
             .text("Hover over an arc");
 
@@ -90,9 +90,9 @@ function initAllDonutCharts() {
                         .attr("d", arc) // Revert to original size
                         .attr("opacity", 1); // Reset opacity
 
-                    // Reset center text
+                    // Reset center text and center value when mouse leaves
                     centerText.text("Hover over an arc");
-                    centerValue.text("");
+                    centerValue.text("");  // Make sure this is properly reset
 
                     // Reset text size when mouse leaves
                     d3.select(this.parentNode).select("text")
@@ -119,6 +119,3 @@ function initAllDonutCharts() {
         }
     }
 }
-
-// Call the function to initialize all charts
-initAllDonutCharts();
